@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <title>Tienda electrónica</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tienda electrónica</h1>
+            <nav>
+                <ul>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="productos">
+                <h2>Productos destactados</h2>
+
+                <article class="producto">
+                    <img src="img/macbook.jpg" alt="laptop macbook">
+                    <h3>APPLE MACBOOK PRO M3 MAX</h3>
+                    <p>$3000</p>
+                    <p>Memoria RAM: 36GB - Almacenamiento: 1TB - Pantalla: 14"</p>
+                    <p>La MacBook Pro da un salto al futuro con los chips M3, M3 Pro y M3 Max. Fabricados con tecnología de 3 nanómetros y una nueva arquitectura de GPU, son los chips más avanzados que existen en una computadora personal. Y cada uno de estos pequeños gigantes lleva la potencia y el rendimiento a niveles inimaginables.</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/audifonos.webp" alt="audifonos">
+                    <h3>SAMSUNG GALAXY BUDS 3</h3>
+                    <p>$80</p>
+                    <p>Bluetooth 5.4 – Altavoz de 11 mm – ANC adaptativo – Audio espacial 3D – Control táctil + por voz – Traducción en tiempo real – Hasta 30 horas de autonomía total – Diseño semi in-ear – Resistencia IP57 al agua y al polvo"</p>
+                    <p>Calidad de sonido excepcional y cancelación de ruido.</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/huawei.webp" alt="celular huawei">
+                    <h3>HUAWEI PURA 70</h3>
+                    <p>$1000</p>
+                    <p>Pantalla OLED LTPO 6.6 pulgadas con tasa de refresco de 120Hz y potenciado por un procesador Kirin 9010 con 12GB de RAM y 256GB de almacenamiento interno. Batería de 4900 mAh con carga rápida inalámbrica y por cable.</p>
+                    <p>El Pura 70 cuenta con una cámara triple, con un sensor principal de 50MP con OIS, una cámara telefoto periscópica de 12MP con zoom óptico 5x y OIS y una cámara ultrawide de 13MP y una cámara selfie de 13MP al frente. </p>
+                    <button>Comprar</button>
+                </article>
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea type="text" id="mensaje" name="mensaje" required></textarea>
+
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </section>
+        </main>
+
+        <footer>&copy; Tienda Electronica | Clase Vitek Academy</footer>
+
+    </body>
+</html>
